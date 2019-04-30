@@ -625,8 +625,8 @@
 	</dependencies>
 
 	<organization>
-		<name>JEECG 微云快速开发平台</name>
-		<url>www.jeecg.org</url>
+		<name>阳光金点运营报表系统</name>
+		<url>http://www.51jindian.net/</url>
 	</organization>
 	<build>
 		<finalName>${project.artifactId}</finalName>

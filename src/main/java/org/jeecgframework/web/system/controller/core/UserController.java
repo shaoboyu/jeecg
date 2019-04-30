@@ -1266,12 +1266,10 @@ public class UserController extends BaseController {
 
 	/**
 	 * 用户录入
-	 * 
-	 * @param user
+	 *
 	 * @param req
 	 * @return
 	 */
-
 	@RequestMapping(params = "savesign", method = RequestMethod.POST)
 	@ResponseBody
 	public AjaxJson savesign(HttpServletRequest req) {
@@ -1333,7 +1331,9 @@ public class UserController extends BaseController {
 //				cssTheme = cookie.getValue();
 //			}
 //		}
+		//网站系统风格
 		SysThemesEnum sysThemesEnum = SysThemesUtil.getSysTheme(request);
+
 		request.setAttribute("indexStyle", sysThemesEnum.getStyle());
 //		request.setAttribute("cssTheme", cssTheme);
 		return "system/user/changestyle";
@@ -1372,8 +1372,7 @@ public class UserController extends BaseController {
 //				response.addCookie(cookie4css);
 //				logger.info("cssTheme:default");
 //			}
-
-			
+			//首页样式存入cookie
 			if(StringUtils.isNotEmpty(indexStyle)){
 				Cookie cookie = new Cookie("JEECGINDEXSTYLE", indexStyle);
 				//设置cookie有效期为一个月

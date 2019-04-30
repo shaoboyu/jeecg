@@ -544,7 +544,6 @@ public class LoginController extends BaseController{
 	 */
 	@RequestMapping(params = "home")
 	public ModelAndView home(HttpServletRequest request) {
-		
 		SysThemesEnum sysTheme = SysThemesUtil.getSysTheme(request);
 		//ACE ACE2 DIY时需要在home.jsp头部引入依赖的js及css文件
 		if("ace".equals(sysTheme.getStyle())||"diy".equals(sysTheme.getStyle())||"acele".equals(sysTheme.getStyle())){

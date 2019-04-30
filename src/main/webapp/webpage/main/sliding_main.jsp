@@ -206,14 +206,14 @@
 					<div style="background: url(plug-in/login/images/exit.png) no-repeat left center;padding-left:30px;"
                          onclick="createdetailwindow('系统消息','tSSmsController.do?goMySmsList',800,400)">系统信息</div>
 				</li>
-				<li cmd="favorite">
-					<div style="background: url(plug-in/login/images/exit.png) no-repeat left center;padding-left:30px;"
-                         onclick="add('修改首页风格','userController.do?changestyle',null,560,250)">首页风格 </div>
-				</li>
-				<li cmd="favorite">
-					<div style="background: url(plug-in/login/images/exit.png) no-repeat left center;padding-left:30px;"
-                         onclick="window.open('http://yun.jeecg.org')">云应用中心 </div>
-				</li>
+<%--				<li cmd="favorite">--%>
+<%--					<div style="background: url(plug-in/login/images/exit.png) no-repeat left center;padding-left:30px;"--%>
+<%--                         onclick="add('修改首页风格','userController.do?changestyle',null,560,250)">首页风格 </div>--%>
+<%--				</li>--%>
+<%--				<li cmd="favorite">--%>
+<%--					<div style="background: url(plug-in/login/images/exit.png) no-repeat left center;padding-left:30px;"--%>
+<%--                         onclick="window.open('http://yun.jeecg.org')">云应用中心 </div>--%>
+<%--				</li>--%>
 				<li cmd="logout">
 					<div class="startMenuImg logout_botton" title="注销当前用户"
                          onclick="exit('loginController.do?logout','确定退出该系统吗 ?',1);"></div>

@@ -65,8 +65,8 @@
 				<div class="navbar-header pull-left">
 					<a href="#" class="navbar-brand">
 						<small>
-							<i class="icon-leaf"></i>
-							JEECG 微云快速开发平台
+							<i class="icon-leaf"> </i>
+							阳光金点运营报表系统
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->
@@ -237,19 +237,19 @@
 										 <t:mutiLang langKey="common.ssms.getSysInfos"/>
 									</a>
 								</li>
-								<li>
-									<a href="javascript:add('<t:mutiLang langKey="common.change.style"/>','userController.do?changestyle','',550,270)">
-										<i class="icon-cog"></i>
-										 <t:mutiLang langKey="common.my.style"/>
-									</a>
-								</li>
+<%--								<li>--%>
+<%--									<a href="javascript:add('<t:mutiLang langKey="common.change.style"/>','userController.do?changestyle','',550,270)">--%>
+<%--										<i class="icon-cog"></i>--%>
+<%--										 <t:mutiLang langKey="common.my.style"/>--%>
+<%--									</a>--%>
+<%--								</li>--%>
 								
-								<li>
-									<a href="http://yun.jeecg.org" target="_blank">
-										<i class="icon-cloud"></i>
-										 云应用中心
-									</a>
-								</li>
+<%--								<li>--%>
+<%--									<a href="http://yun.jeecg.org" target="_blank">--%>
+<%--										<i class="icon-cloud"></i>--%>
+<%--										 云应用中心--%>
+<%--									</a>--%>
+<%--								</li>--%>
 								
 								<li>
 									<a href="javascript:clearLocalstorage()">
@@ -289,23 +289,23 @@
 					</script>
 
 					<div class="sidebar-shortcuts" id="sidebar-shortcuts">
-						<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-							<button class="btn btn-success">
-								<i class="icon-signal"></i>
-							</button>
+<%--						<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">--%>
+<%--							<button class="btn btn-success">--%>
+<%--								<i class="icon-signal"></i>--%>
+<%--							</button>--%>
 
-							<button class="btn btn-info">
-								<i class="icon-pencil"></i>
-							</button>
+<%--							<button class="btn btn-info">--%>
+<%--								<i class="icon-pencil"></i>--%>
+<%--							</button>--%>
 
-							<button class="btn btn-warning">
-								<i class="icon-group"></i>
-							</button>
+<%--							<button class="btn btn-warning">--%>
+<%--								<i class="icon-group"></i>--%>
+<%--							</button>--%>
 
-							<button class="btn btn-danger">
-								<i class="icon-cogs"></i>
-							</button>
-						</div>
+<%--							<button class="btn btn-danger">--%>
+<%--								<i class="icon-cogs"></i>--%>
+<%--							</button>--%>
+<%--						</div>--%>
 
 						<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
 							<span class="btn btn-success"></span>

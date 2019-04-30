@@ -72,22 +72,22 @@
                       <i class="fa fa-users text-aqua"></i> 系统消息
                     </a>
                   </li>
-                  <li>
-                    <a href="javascript:window.open('http://yun.jeecg.org')" title="云应用中心">
-                      <i class="fa fa-warning text-yellow"></i> 云应用中心
-                    </a>
-                  </li>
+<%--                  <li>--%>
+<%--                    <a href="javascript:window.open('http://yun.jeecg.org')" title="云应用中心">--%>
+<%--                      <i class="fa fa-warning text-yellow"></i> 云应用中心--%>
+<%--                    </a>--%>
+<%--                  </li>--%>
                   <li>
                     <a href="javascript:clearLocalstorage()">
                       <i class="fa fa-users text-red"></i> <t:mutiLang langKey="common.clear.localstorage"/>
                     </a>
                   </li>
                   <li><a href="javascript:toSwagger()"><i class="fa fa-users text-red"></i> SwaggerUI</a></li>
-                  <li> 
-					<a href="javascript:add('首页风格','userController.do?changestyle','',550,270)" title="换肤">
-						<i class="fa fa-shopping-cart text-green"></i>风格切换
-					</a>
-				  </li> 
+<%--                  <li> --%>
+<%--					<a href="javascript:add('首页风格','userController.do?changestyle','',550,270)" title="换肤">--%>
+<%--						<i class="fa fa-shopping-cart text-green"></i>风格切换--%>
+<%--					</a>--%>
+<%--				  </li> --%>
                 </ul>
               </li>
             </ul>

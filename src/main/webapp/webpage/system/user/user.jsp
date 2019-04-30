@@ -6,9 +6,9 @@
 <title>用户信息</title>
 <t:base type="jquery,easyui,tools"></t:base>
 <script>
-	/**
-	 * 选择组织机构
-	 */
+        /**
+         * 选择组织机构
+         */
 		function openDepartmentSelect() {
 			$.dialog.setting.zIndex = getzIndex(); 
 			var orgIds = $("#orgIds").val();
